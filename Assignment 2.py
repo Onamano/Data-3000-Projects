@@ -1,6 +1,10 @@
 # Read employee data from included file - ensure error handling and try/except - and populates an array to create 1000 employee objects
 # Needs to sort using an algorithm, rather than the sort() function
+unsortedArray = []
 
+def main():
+    newFile = open("employeesWithoutRepeat.txt")
+    with 
 
 # Create a calcHourlySalary() method which calculates the hourly salary based on the attributes of each employee
 
