@@ -33,6 +33,8 @@ def read_employees_from_file(filename):
 
     except FileNotFoundError:
         print(f"File at {filename} was not found")
+    except OSError:
+        print(f"Error occurred while attempting to read file")
 
 
 def write_employees_to_file(filename, employees):
