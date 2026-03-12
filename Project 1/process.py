@@ -27,7 +27,7 @@ class Process:
     #Setting the waiting time for process
     #Allows for FCFS algorithm to update later
     def set_waiting_time(self, waiting_time):
-        self.turnaround_time = waiting_time
+        self.waiting_time = waiting_time
     
     #Setter method for the turnaround time
     #FCFS algorithm will update later
