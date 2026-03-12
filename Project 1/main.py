@@ -42,7 +42,7 @@ def run_simulation():
     avg_waiting = total_waiting / n 
     avg_turnaround = total_turnaround / n
 
-    output += f"\nAverage Waiting Time: {avg_waiting:.2f}\n"     #format the output for the avaverage wait and turnaround times calculated above
+    output += f"\nAverage Waiting Time: {avg_waiting:.2f}\n"  #format the output for the avaverage wait and turnaround times calculated above
     output += f"Average Turnaround Time: {avg_turnaround:.2f}"
 
     #now we can use a tkinter message box to show the final calculated results 
