@@ -3,7 +3,7 @@ from node import Node
 
 #Class representing a queue, inherits from abstract based class
 class QueueImplementation(QueueInterface):
-    #Constructor for the queue, initializes empty
+    #Constructor for the queue
     def __init__(self):
         #Pointer to the first node in the queue
         self.front = None
