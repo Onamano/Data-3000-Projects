@@ -58,9 +58,10 @@ class Process:
     #This will control exactly what gets displayed when you print a Process object
     def __str__(self):
         return (
-            f"Process ID:{self.process_id}"
-            f"Arrival Time:{self.arrival_time}"
-            f"Burst Time: {self.burst_time}"
-            f"Waiting Time: {self.waiting_time}"
+            f"Process ID:{self.process_id}\n"
+            f"Arrival Time:{self.arrival_time}\n"
+            f"Burst Time: {self.burst_time}\n"
+            f"Waiting Time: {self.waiting_time}\n"
             f"Turnaround Time: {self.turnaround_time}"
+
         )
