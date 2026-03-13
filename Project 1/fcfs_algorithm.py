@@ -1,6 +1,3 @@
-from process import Process
-from queue_implementation import QueueImplementation
-
 class FCFSAlgorithm:
     # Creates an array to hold the processes loaded into the queue, as well as initializing the current time variable which will hold arrival times of processes
     def run(self, queue):
