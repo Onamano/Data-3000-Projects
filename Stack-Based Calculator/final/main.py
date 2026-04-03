@@ -59,7 +59,7 @@ def main():
         #delete all variables from the tree to prepare for the next set of test case variables
         calc.delete_all_variables() 
         print("Variables deleted.") 
-        calc.variableTree.display_tree() #display tree again simply to confirm the tree is ampty before moving on
+        calc.variableTree.display_tree() #display tree again simply to confirm the tree is empty before moving on
 
 if __name__ == "__main__": #runs the main program
     main()
