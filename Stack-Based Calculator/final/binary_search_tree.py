@@ -98,7 +98,7 @@ class BinarySearchTree():
             current = current.left
         return current
     
-    #Method which deletes the entire tree
+    #Method which deletes the entire tree, Python's garbage collection handles any orphaned child nodes if they exist
     def delete_all(self):
         self.root = None
 
